@@ -1,0 +1,222 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>reveal.js – The HTML Presentation Framework</title>
+
+		<meta name="description" content="Slides describing the KCL Coding Dojo 2018">
+		<meta name="author" content"Dom Weldon">
+
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<link rel="stylesheet" href="node_modules/reveal.js/css/reveal.css">
+		<link rel="stylesheet" href="node_modules/reveal.js/css/theme/black.css" id="theme">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="node_modules/reveal.js/lib/css/zenburn.css">
+		<link href="style.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/flipclock/dist/flipclock.css">
+
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="node_modules/reveal.js/lib/js/html5shiv.js"></script>
+		<![endif]-->
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section>
+					<h1 class="dojoTitle">King's Coding Dojo!</h1>
+          <div class="dojoSchedule">
+						<span
+							data-time="1800 - 1830"
+							data-emoji="🍕">
+              Pizza &amp; Install
+							<a href="http://bit.ly/dojoinstall">bit.ly/dojoinstall</a>
+            </span>
+						<span
+							data-time="1830 - 1840"
+							data-emoji="">
+              Introduction to Challenge
+            </span>
+						<span
+							data-time="1840 - 2010"
+							class="dojoFont"
+							data-emoji="👩‍💻👨‍💻">
+              Dojo!
+            </span>
+						<span
+							data-time="2010 - 2030"
+							data-emoji="📽️">
+              Presentations
+            </span>
+						<span
+							data-time="2030"
+							data-emoji="🍻">
+              End!
+            </span>
+					</div>
+				</section>
+        <section
+					data-background-image="assets/ninja.webp"
+					data-background-size="contain">
+					<h1
+						class="fragment dojoTitle dojoBlackBg">
+						Why are we here?
+					</h1>
+				</section>
+				<section>
+					<h3>
+						Tonight is about:
+					</h3>
+					<ul class="emojiList">
+						<li data-emoji="😄">
+							Having a fun time
+						</li>
+						<li data-emoji="👩‍🏫👨‍🏫">
+							Practicing skills and learning from eachother
+						</li>
+						<li data-emoji="💻">
+							Seeing uses of code outside geography
+						</li>
+						<li data-emoji="🌍">
+							Having a laugh as geographers
+						</li>
+						<li data-emoji="🤝">
+							Meeting new coursemates!
+						</li>
+					</ul>
+				</section>
+				<section>
+					<h1>
+						Pairing Up
+					</h1>
+					<p>
+						In groups of 2 or 3, experienced/confident coders to pair with newer pythonistas. Form groups with people you don't know well or haven't worked with before.
+					</p>
+				</section>
+				<section
+					data-background-image="assets/wait.webp"
+					data-background-size="contain">
+					<h1
+						class="fragment dojoTitle dojoBlackBg">
+						What's the challenge?
+					</h1>
+				</section>
+				<section>
+					<!-- what's the challenge? -->
+					<blockquote>
+						Using only PyGame Zero and the standard library, create an animation and/or game to demonstrate some concept in geography.
+					</blockquote>
+				</section>
+				<section>
+					<h3>
+						Top Tips:
+					</h3>
+					<ul class="emojiList">
+						<li data-emoji="🤔" class="fragment">
+							Don't over-think it!
+						</li>
+						<li data-emoji="😂" class="fragment">
+							Have fun! (make us laugh?)
+						</li>
+						<li data-emoji="💩" class="fragment">
+							Don't worry when things go wrong!
+						</li>
+						<li data-emoji="ℹ️" class="fragment">
+							Learn from eachother in your groups
+						</li>
+					</ul>
+				</section>
+				<section>
+					<h2>
+						When you're done, share your work on the #dojo channel in Slack, so we can put it up to present.
+					</h2>
+				</section>
+				<section>
+					<div class="dojoSchedule">
+						<span
+							data-time="1800 - 1830"
+							data-emoji="🍕">
+              Pizza &amp; Install
+							<a href="http://bit.ly/dojoinstall">bit.ly/dojoinstall</a>
+            </span>
+						<span
+							data-time="1830 - 1840"
+							data-emoji="">
+              Introduction to Challenge
+            </span>
+						<span
+							data-time="1840 - 2010"
+							class="dojoFont"
+							data-emoji="👩‍💻👨‍💻">
+              Dojo!
+            </span>
+						<span
+							data-time="2010 - 2030"
+							data-emoji="📽️">
+              Presentations
+            </span>
+						<span
+							data-time="2030"
+							data-emoji="🍻">
+              End!
+            </span>
+					</div>
+					<div class="dojoClock"></div>
+				</section>
+      </div>
+    </div>
+
+    <!-- Scripts -->
+		<script src="node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="node_modules/reveal.js/lib/js/head.min.js"></script>
+		<script src="node_modules/reveal.js/js/reveal.js"></script>
+		<script src="node_modules/flipclock/dist/flipclock.min.js"></script>
+
+    <script>
+
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'node_modules/reveal.js/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'node_modules/reveal.js/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'node_modules/reveal.js/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'node_modules/reveal.js/plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } },
+				]
+			});
+
+			let clock = $('.dojoClock').FlipClock({
+				clockFace: 'TwentyFourHourClock',
+			});
+
+		</script>
+
+  </body>
+</html>
