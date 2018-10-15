@@ -45,25 +45,155 @@
 			<!-- Any section element inside of this container is displayed as a slide -->
 			<div class="slides">
 				<section>
-					<h1 class="dojoTitle">King's Coding Dojo!</h1>
+					<h1 class="dojoTitle">Install pygamezero</h1>
           <p class="dojoDate">
-            16 Oct 2018 | Welcome &amp; Schedule
+            Ask Dom or James for help if stuck.
           </p>
-          <div class="dojoSchedule">
-            <span data-time="1800 - 1830">
-              Pizza Arrives, Install pgzero
-            </span>
-          </div>
+          <p>
+            Navigate this slideshow using the ⬅️➡️⬆️⬇️ keys!
+          </p>
 				</section>
         <section>
-					<p>Some content here</p>
+					<h2>
+            What is pygamezero?
+          </h2>
+          <p>
+            pygamezero is a python package that allows us to create games and animation using just python.
+          </p>
 				</section>
+        <section>
+					<h2>
+            Install on Mac or Windows (⬆️⬇️)
+          </h2>
+          <section>
+            <p>
+              <a
+                href="https://pygame-zero.readthedocs.io/en/latest/installation.html"
+                target="_blank">
+                Instructions
+              </a>
+            </p>
+          </section>
+          <section>
+            <p>
+              If you are on the Geocomputation or GSA course, you likely have Anaconda installed...
+            </p>
+          </section>
+          <section>
+            <p>
+              Open up the Anaconda Prompt (in either base or GSA2018 environment)
+            </p>
+          </section>
+          <section>
+            <pre><code>
+  pip install pgzero
+            </code>
+          </section></pre>
+          <section>
+            <code style="font-size: 0.6em;">
+              pygame 1.9.4
+              Hello from the pygame community. https://www.pygame.org/contribute.html
+              Usage: pgzrun [options]
+
+              pgzrun: error: You must specify which module to run.
+            </code>
+          </section>
+          <section>
+            Is this what you see? If so, hurrah! Installed!
+          </section>
+          <section>
+            No? Talk to Dom / James.
+          </section>
+				</section>
+        <section>
+          <h2>
+            How does it work? (⬆️⬇️)
+          </h2>
+          <section>
+            <h4>
+              Create a new folder called dojo (or something similar)
+            </h4>
+          </section>
+          <section>
+            <h4>
+              Save the contents below as intro.py in the new folder
+            </h4>
+            <pre><code class="python">
+    WIDTH = 300  # adjust these to make the screen bigger
+    HEIGHT = 300
+
+    def draw():
+        screen.fill((128, 0, 0))
+            </code></pre>
+          </section>
+          <section>
+            <h3>
+              Now run the command: (see next slide ⬇️ if doesn't work)
+            </h3>
+            <pre><code>
+  pgzrun intro.py
+            </pre></code>
+          </section>
+          <section>
+            <h3>
+              You'll need to be in the same directory as the intro.py file.
+            </h3>
+            <p>On windows it might look something like this:</p>
+            <pre><code>
+  (base) C:\Users\YourUsername>cd Documents\Coding\dojo
+  (base) C:\Users\YourUsername\Documents\dojo>pgzrun intro.py
+            </pre></code>
+          </section>
+          <section data-markdown>
+            ### Use these commands to navigat to the folder
+
+            * `cd` = change directory, so `cd dojo` changes into `dojo` folder
+            * `cd ../` = go up one folder
+            * `ls -lah` list all files and folders in current directory (Mac)
+            * `dir` list all files and folders in current directory (Windows)
+          </section>
+          <section>
+            <h2>
+              Now check out the cool stuff you can do ➡️
+            </h2>
+          </section>
+        </section>
+        <section>
+          <h2>
+            Cool stuff!
+          </h2>
+          <p>
+            Check out the pgzero documentation for cool things to do with the library. For instance, you could:
+          </p>
+          <ul>
+            <li>
+              Put in a background
+            </li>
+            <li>
+              Play sound
+            </li>
+            <li>
+              Make images move around the screen
+            </li>
+            <li>
+              Make an interactive element when a user clicks on something
+            </li>
+          </ul>
+          <p>
+            <a
+              href="https://pygame-zero.readthedocs.io/en/latest/introduction.html"
+              target="_blank">
+              Getting Started
+            </a>
+          </p>
+        </section>
       </div>
     </div>
 
     <!-- Scripts -->
     <script src="node_modules/reveal.js/lib/js/head.min.js"></script>
 		<script src="node_modules/reveal.js/js/reveal.js"></script>
+    <script src="node_modules/hljs/hl.js"></script>
 
     <script>
 

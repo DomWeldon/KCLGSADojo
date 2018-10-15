@@ -4,8 +4,9 @@
   "description": "",
   "main": "index.js",
   "dependencies": {
-    "reveal.js": "^3.7.0",
-    "flipclock": "^0.8.2"
+    "flipclock": "^0.8.2",
+    "hljs": "^6.2.3",
+    "reveal.js": "^3.7.0"
   },
   "devDependencies": {},
   "scripts": {
